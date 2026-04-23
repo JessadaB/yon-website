@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Website</title>
+    <style>
+        /* นี่คือ CSS สำหรับตกแต่ง */
+        body { font-family: sans-serif; text-align: center; background-color: #f4f4f4; }
+        .card { background: white; padding: 20px; border-radius: 10px; width: 300px; margin: 50px auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        button { background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>สวัสดีครับ!</h1>
+        <p>ผมชื่อ ยนต์ หัวม่วง ถึงเธอจะง่วง มาเจอของม่วงได้</p>
+        <button onclick="sayHi()">คลิกตรงนี้</button>
+    </div>
+
+    <script>
+        /* นี่คือ JavaScript สำหรับสร้าง Interactive */
+        function sayHi() {
+            alert("Hi!");
+        }
+    </script>
+
+</body>
+</html>
